@@ -317,9 +317,9 @@ export default {
 
     cursor pointer
     border-radius 50%
-    background-color rgba( 0, 0, 0, .2)
+    background-color rgba( 0, 0, 0, .0)
   &-indicator-active
-    background-color rgba( 255, 255, 255, .2)
+    background-color rgba( 255, 255, 255, .0)
 
   &-loading
     position absolute
@@ -328,7 +328,7 @@ export default {
     z-index 99
     width 100%
     height 100%
-    background rgba(0, 0, 0, .1)
+    background rgba(0, 0, 0, .0)
     display flex
     justify-content center
     align-items center
